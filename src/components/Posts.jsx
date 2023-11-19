@@ -20,6 +20,7 @@ const Posts = (props) => {
           <div>{props.createdAt}</div>
           <span className=" h-1 w-1 bg-[#808080]  rounded-full"/>
           <div>{props.readAt} Read</div>
+          <span className=" h-1 w-1 bg-[#808080]  rounded-full"/>
           <div>{props.views} Views</div>
         </div>
       </div>
